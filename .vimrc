@@ -1,4 +1,5 @@
 syntax enable 
+set bg=dark
 set number
 set nocompatible
 set autoindent
@@ -14,7 +15,7 @@ set smartindent
 set breakindent
 set noerrorbells
 set scrolloff=5
-set statusline=%<%F%h%m%r\ [%{&ff}]\ Line\ %l\ of\ %L\ %c\
+set statusline=%<%F%h%m%r\ [%{&ff}]\ Line\ %l\ of\ %L\ %c
 "set textwidth=78
 set laststatus=2 "makes the status and command lines always show up
 set spelllang=en_gb "Spelling dictionary
